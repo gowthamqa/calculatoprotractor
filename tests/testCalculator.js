@@ -70,4 +70,13 @@ describe('testing calculator',function(){
 
     });
 
+    it('test Invalid values',function(){
+        calc.firstValue.sendKeys('ac');
+        calc.secondValue.sendKeys(20);
+        calc.operation('-').click();
+        calc.goButton.click();
+        expect(calc.result()).toEqual('NaN');
+
+    });
+
 });
