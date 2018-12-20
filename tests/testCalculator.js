@@ -76,9 +76,7 @@ describe('testing calculator',function(){
         calc.operation('-').click();
         calc.goButton.click();
         expect(calc.result()).toEqual('NaN');
-
         
-
     });
 
 });
