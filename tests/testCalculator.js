@@ -18,6 +18,7 @@ describe('testing calculator',function(){
             calc.operation(data.operation).click();
             calc.goButton.click();
             expect(calc.result()).toEqual(data.result);
+			
             
         });
             
