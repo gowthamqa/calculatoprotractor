@@ -25,7 +25,6 @@ describe('testing calculator',function(){
     });
 
 
-
     it('test Addition',function(){
         calc.firstValue.sendKeys(10);
         calc.secondValue.sendKeys(20);
