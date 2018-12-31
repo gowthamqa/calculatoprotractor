@@ -17,10 +17,7 @@ describe('testing calculator',function(){
             calc.secondValue.sendKeys(data.secondValue);
             calc.operation(data.operation).click();
             calc.goButton.click();
-            expect(calc.result()).toEqual(data.result);
-			
-			
-            
+            expect(calc.result()).toEqual(data.result);            
 			
         });
             
