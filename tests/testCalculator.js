@@ -19,6 +19,7 @@ describe('testing calculator',function(){
             calc.goButton.click();
             expect(calc.result()).toEqual(data.result);   
 			
+			
         });
             
     });
