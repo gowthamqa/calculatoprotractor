@@ -29,7 +29,7 @@ describe('testing calculator',function(){
         calc.secondValue.sendKeys(20);
         calc.operation('+').click();
         calc.goButton.click();
-        expect(calc.result()).toEqual('0');
+        expect(calc.result()).toEqual('30');
 
     });
 
